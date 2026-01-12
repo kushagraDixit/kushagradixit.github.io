@@ -52,6 +52,7 @@
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Projects</a></li>
+						<li><a class="smoothscroll"  href="#publications" title="">Publications</a></li>
 						<li><a class="smoothscroll"  href="#services" title="">Recommendations</a></li>					
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
 					</ul>
@@ -134,7 +135,7 @@
    				</li>
    				<li>
    					<strong>Job:</strong>
-   					<span>Research and Development Engineer, Software Development Engineer</span>
+   					<span>Research and Development Engineer, Software Development Engineer, Research Programmer</span>
    				</li>
    				<li>
    					<strong>Email:</strong>
@@ -173,7 +174,7 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="https://drive.google.com/uc?export=download&id=1WpqBbipn_1_262fJAIc0A8tJJ9nOIaOj" title="Download CV" class="button button-primary">Download CV</a>
+   			<a href="https://drive.google.com/uc?export=download&id=1x-bAW5qkXNTx94EEGGeldKmqz4if2eoI" title="Download CV" class="button button-primary">Download CV</a>
    		</div>   		
    	</div>
 
@@ -211,18 +212,45 @@
 	   				</div>
 
 	   				<div class="timeline-header">
+	   					<h3>ML Research Programmer</h3>
+	   					<p>May 2024 - Sep 2025</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<div class="company-header">
+	   						<img class="company-logo" src="images/companies/upenn_logo.png" alt="Company logo">
+	   						<h3>University of Pennsylvania</h3>
+	   					</div>
+	   					<p>• Built adaptive multi-agent systems for RAG, selecting reasoning strategies based on context type and complexity.<br>
+							•  Developed inference and evaluation pipelines in Python, LangGraph, scikit-learn, and FAISS for retrieval experiments.<br>
+							• Optimized inference with parallelism, batching, and MongoDB persistence, cutting runtime from 5+ hours to 20 minutes.<br>
+							• Deployed on Triton/vLLM backends and containerized the setup with Docker for scalable inference.<br>
+							• Built Neo4j knowledge graphs for temporal QA and fine-tuned LLMs with LoRA on 4x A100 GPUs.<br>
+							<b>Tech :</b> Python, LangGraph, scikit-learn, FAISS, Neo4j, vLLM, Docker.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
 	   					<h3>Research and Development Engineer</h3>
 	   					<p>Sept 2022 - Aug 2023</p>
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>Synopsys</h4>
-	   					<p>• Engineered functionalities for Design for Testability in chip testing, improving key products like Fusion
-							Compiler, Test-max Manager, and Design Compiler, and benefiting top clients including Samsung, Intel,
-							Qualcomm, and Broadcom.<br>
-							• Implemented Left Shift DRC project with a focus on RTL-level Design-for-Test (DFT) and Design Rule Checking
-							(DRC) violation assessments to enhance efficiency in chip development.<br>
-							<b>Tech :</b> C++, Linux, GDB.</p>
+	   					<div class="company-header">
+	   						<img class="company-logo" src="images/companies/synopsys_logo.jpg" alt="Company logo">
+	   						<h3>Synopsys</h3>
+	   					</div>
+							<p>• Developed core C++ modules for Design-for-Test (DFT) automation, transforming RTL logic into gate-level netlists for synthesis.<br>
+							• Implemented RTL-level design rule checking for inserted DFT logic, reducing design iteration cycles by 20%.<br>
+							• Automated debugging and validation workflows using GDB, Python, shell scripting, and Linux tooling.<br>
+							<b>Tech :</b> C++, Python, Linux, GDB.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -239,13 +267,16 @@
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>OYO</h4>
-	   					<p>• Led initiatives to enhance the pricing aggregator's capabilities, effectively handling more than 50,000
-							requests per minute.<br>
-							• Constructed low-latency systems for Pricing Services through the implementation of parallelism and
-							caching, leading to a reduction in latency by 1 second and an enhancement in customer satisfaction.<br>
-							• Successfully spearheaded business-oriented projects, including the Free Room Night Program and
-							Dynamic Insurance Prices, significantly contributing to 10% increase in revenue.<br> <b>Tech :</b> JAVA, Python, Spring-Boot, REST APIs, AWS, PostgreSQL, MongoDB.</p>
+	   					<div class="company-header">
+	   						<img class="oyo-logo" src="images/companies/oyo_logo.jpg" alt="Company logo">
+	   						<h3>OYO</h3>
+	   					</div>
+							<p>• Developed Spring Boot microservices (Java + PostgreSQL) handling 90K+ requests/min, deployed with Docker, Kubernetes, and AWS EC2.<br>
+							• Re-architected the pricing aggregator with Java multithreading, MongoDB caching, and Kafka sync, cutting P99 latency by 1s.<br>
+							• Built a price prediction pipeline (Python, scikit-learn, XGBoost) with A/B testing, boosting hotel revenue by 15%.<br>
+							• Designed Spark/SQL ETL pipelines and added Redis caching + SQL indexing, improving query latency by 35% and conversions by 10%.<br>
+							• Built a React + TypeScript portal with AWS S3 uploads and Kafka-based pricing updates; added Grafana/Prometheus monitoring.<br>
+							<b>Tech :</b> Java, Python, Spring Boot, AWS, PostgreSQL, MongoDB, Kafka, Docker, Kubernetes.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -332,6 +363,144 @@
 		
 	</section> <!-- /features -->
 
+	
+
+
+	<!-- Publications Section
+   ================================================== -->
+	<section id="publications">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Publications</h5>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row publications-content">
+
+   		<div class="col-twelve">
+
+   			<div class="pub-grid">
+
+   				<div class="pub-item">
+					<div class="pub-card">
+						<a class="pub-title" href="https://aclanthology.org/2025.findings-naacl.278/" target="_blank" rel="noopener">Enhancing Temporal Understanding in LLMs for Semi-structured Tables</a>
+   						<img class="pub-meta-logo" src="images/conference_logo/naacl-2025-logo.jpg" alt="NAACL 2025 logo">
+					</div>
+					<div class="pub-hover">
+						<div class="pub-abstract">
+   							Temporal reasoning over tabular data presents substantial challenges for large language models (LLMs), as evidenced by recent research. In this study, we conduct a 
+							comprehensive analysis of temporal datasets to pinpoint the specific limitations of LLMs. Our investigation leads to enhancements in TempTabQA, a benchmark specifically 
+							designed for tabular temporal question answering. We provide critical insights for enhancing LLM performance in temporal reasoning tasks with tabular data. Furthermore, 
+							we introduce a novel approach, C.L.E.A.R to strengthen LLM capabilities in this domain. Our findings demonstrate that our method improves evidence-based reasoning across various 
+							models. Additionally, our experimental results reveal that indirect supervision with auxiliary unstructured data (TRAM) substantially boosts model performance in these tasks. This 
+							work contributes to a deeper understanding of LLMs’ temporal reasoning abilities over tabular data and promotes advancements in their application across diverse fields.
+   						</div>
+   						<a class="pub-preview" href="https://aclanthology.org/2025.findings-naacl.278/" target="_blank" rel="noopener">
+   							<img src="images/papers/paper_1.png" alt="Paper preview">
+   						</a>
+					</div>
+				</div>
+
+   				<div class="pub-item">
+					<div class="pub-card">
+						<a class="pub-title" href="https://aclanthology.org/2025.findings-acl.1022/" target="_blank" rel="noopener">LLM-Symbolic Integration for Robust Temporal Tabular Reasoning</a>
+   						<img class="pub-meta-logo" src="images/conference_logo/acl-2025-logo.png" alt="ACL 2025 logo">
+					</div>
+					<div class="pub-hover">
+						<div class="pub-abstract">
+   							Temporal tabular question answering presents a significant challenge for Large Language Models (LLMs), requiring robust 
+							reasoning over structured data—a task where traditional prompting methods often fall short. These methods face challenges such as 
+							memorization, sensitivity to table size, and reduced performance on complex queries. To overcome these limitations, we introduce TEMPTABQA-C, 
+							a synthetic dataset designed for systematic and controlled evaluations, alongside a symbolic intermediate representation that transforms tables 
+							into database schemas. This structured approach allows LLMs to generate and execute SQL queries, enhancing generalization and mitigating biases. 
+							By incorporating adaptive fewshot prompting with contextually tailored examples, our method achieves superior robustness, scalability, and performance. 
+							Experimental results consistently highlight improvements across key challenges, setting a new benchmark for robust temporal reasoning with LLMs.
+   						</div>
+   						<a class="pub-preview" href="https://aclanthology.org/2025.findings-acl.1022/" target="_blank" rel="noopener">
+   							<img src="images/papers/paper_2.png" alt="Paper preview">
+   						</a>
+					</div>
+				</div>
+
+   				<div class="pub-item">
+					<div class="pub-card">
+						<a class="pub-title" href="https://arxiv.org/pdf/2506.11246" target="_blank" rel="noopener">No Universal Prompt: Unifying Reasoning through Adaptive Prompting for
+Temporal Table Reasoning</a>
+   						<img class="pub-meta-logo" src="images/conference_logo/aacl-2025-logo.png" alt="AACL 2025 logo">
+					</div>
+					<div class="pub-hover">
+						<div class="pub-abstract">
+   							Temporal Table Reasoning is a critical challenge for Large Language Models (LLMs), requiring effective reasoning to extract relevant
+							insights. Despite existence of multiple prompting methods, their impact on table reasoning remains largely unexplored. Furthermore, model
+							performance varies drastically across different
+							table and context structures, making it difficult to determine an optimal approach. This
+							work investigates multiple prompting technique
+							on diverse table types to determine that performance depends on factors such as entity type,
+							table structure, requirement of additional context and question complexity, with "NO" single method consistently outperforming others.
+							To address this, we introduce SEAR, an adaptive prompting framework inspired by human
+							reasoning that dynamically adjusts to context
+							and integrates structured reasoning. Our results demonstrate that SEAR achieves superior
+							performance across all table types compared
+							to baseline prompting techniques. Additionally, we explore the impact of table structure
+							refactoring, finding that a unified representation
+							enhances model reasoning.
+
+   						</div>
+   						<a class="pub-preview" href="https://arxiv.org/pdf/2506.11246" target="_blank" rel="noopener">
+   							<img src="images/papers/paper_3.png" alt="Paper preview">
+   						</a>
+					</div>
+				</div>
+
+   			</div> <!-- /pub-grid -->
+
+   		</div> <!-- /twelve -->
+
+   	</div> <!-- /publications-content -->
+
+	</section> <!-- /publications -->
+
+	<!-- App Section
+   ================================================== -->
+	<section id="app" class="app-section">
+
+		<div class="row">
+			<div class="col-six tab-full app-copy">
+				<h5>My App: Creda AI</h5>
+				<h1>Personal finance, simplified.</h1>
+				<ul class="app-features">
+					<li><i class="fa fa-exchange"></i>Split expenses and settle instantly</li>
+					<li><i class="fa fa-credit-card"></i>Send and receive payments</li>
+					<li><i class="fa fa-line-chart"></i>Track bank transactions and insights</li>
+					<li><i class="fa fa-microphone"></i>CredaAI voice-first assistant</li>
+				</ul>
+				<a class="button button-primary" href="https://creda-app.github.io/" title="Download Creda AI">Download My App</a>
+			</div>
+
+			<div class="col-six tab-full app-visual">
+				<div class="app-mockup">
+					<svg class="app-circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+						<defs>
+							<linearGradient id="appCircleGradient" gradientTransform="rotate(45)">
+								<stop class="app-gradient-start" offset="0%"></stop>
+								<stop class="app-gradient-end" offset="100%"></stop>
+							</linearGradient>
+						</defs>
+						<circle cx="50" cy="50" r="50"></circle>
+					</svg>
+					<div class="device-frame">
+						<img src="images/app/home_screen.jpg" alt="Creda AI app home screen">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section> <!-- /app -->
+
+	
 
 	<!-- Portfolio Section
    ================================================== -->
@@ -358,6 +527,54 @@
 
 	         	<div class="bgrid folio-item">
 	               <div class="item-wrap">
+	               	<img class="project-creda" src="images/app/home_screen.jpg" alt="Creda AI app home screen">
+	                  <a href="#modal-07" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Creda AI</h3>
+		     					    	<span class="folio-types">
+		     					       	  Personal FinTech App
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/tactixpert.png" alt="TactiXpert">
+	                  <a href="#modal-08" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">TactiXpert</h3>
+		     					    	<span class="folio-types">
+		     					       	  VCT Hackathon Winner
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/traject_iq.png" alt="TrajectIQ">
+	                  <a href="#modal-09" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">TrajectIQ</h3>
+		     					    	<span class="folio-types">
+		     					       	  UOU 2024
+		     					      </span>
+		     					   </div>
+	                     </div>
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+<div class="bgrid folio-item">
+	               <div class="item-wrap">
 	               	<img src="images/portfolio/me.jpg" alt="Liberty">
 	                  <a href="#modal-01" class="overlay">	                  	           
 	                     <div class="folio-item-table">
@@ -372,7 +589,7 @@
 	               </div>	               
 	        		</div> <!-- /folio-item -->
 
-	        		<div class="bgrid folio-item">
+<div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/mmsa.jpeg" alt="Shutterbug">
 	               	<a href="#modal-02" class="overlay">              		                  
@@ -388,7 +605,7 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-				<div class="bgrid folio-item">
+<div class="bgrid folio-item">
 						<div class="item-wrap">
 							<img src="images/portfolio/cbvs.jpg" alt="Beetle">
 						   <a href="#modal-04" class="overlay">                  	                 
@@ -402,9 +619,9 @@
 							  </div>                    
 						   </a>
 						</div>
-					 </div> <!-- /folio-item --> 
+					 </div> <!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
+<div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/dpn.png"alt="Clouds">
 	                  <a href="#modal-03" class="overlay">             		                  
@@ -418,9 +635,9 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->    
+	        		</div> <!-- /folio-item -->
 
-	        		<div class="bgrid folio-item">
+<div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/pic.jpg" alt="Lighthouse">
 	                  <a href="#modal-05" class="overlay">             		                  
@@ -436,7 +653,7 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
+<div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/lm.png" alt="Salad">
 	                  <a href="#modal-06" class="overlay">
@@ -450,9 +667,9 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->   
+	        		</div> <!-- /folio-item -->
 
-	            <!-- modal popups - begin
+<!-- modal popups - begin
 	            ============================================================= -->
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
@@ -548,12 +765,66 @@
 					      <div class="categories">UOU 2023</div>			               
 					   </div>
 
-			         <div class="link-box">
-			            <a href="https://github.com/kushagraDixit/Language-Modeling-using-LSTM">Github</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+				         <div class="link-box">
+				            <a href="https://github.com/kushagraDixit/Language-Modeling-using-LSTM">Github</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
 
-				   </div> /modal-06
+				   </div> <!-- /modal-06 -->
+
+				   <div id="modal-07" class="popup-modal slider mfp-hide">
+
+						<div class="media media-center">
+							<div class="app-mockup app-mockup-modal">
+								<div class="device-frame device-frame-modal">
+									<img src="images/app/home_screen.jpg" alt="Creda AI app home screen">
+								</div>
+							</div>
+						</div>
+
+					   <div class="description-box">
+					      <h4>Creda AI</h4>
+					      <p>A personal finance assistant that combines expense splitting, payments, and transaction insights. Voice-first CredaAI lets you manage everything conversationally.</p>
+					      <div class="categories">Personal FinTech App</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://creda-app.github.io/" title="Download Creda AI">Download</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-07 -->
+
+				   <div id="modal-08" class="popup-modal slider mfp-hide">
+
+					   <div class="description-box">
+					      <h4>TactiXpert</h4>
+					      <p>A multi-agent LLM assistant that helps Valorant coaches form pro teams with strategy-aware recommendations and player retrieval.</p>
+					      <div class="categories">VCT Hackathon Winner</div>
+					   </div>
+
+			         <div class="link-box three">
+			            <a href="https://devpost.com/software/linup-creater">Demo</a>
+			            <a href="https://github.com/kushagraDixit/TactiXpert" title="TactiXpert Github">Github</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-08 -->
+
+				   <div id="modal-09" class="popup-modal slider mfp-hide">
+
+					   <div class="description-box">
+					      <h4>TrajectIQ</h4>
+					      <p>BERT-based trajectory imputation with Apache Spark pipelines for scalable preprocessing and robust performance.</p>
+					      <div class="categories">University of Utah</div>
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/kushagraDixit/TrajectIQ">Github</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>
+
+				   </div> <!-- /modal-09 -->
 
 
 				   <!-- modal popups - end
@@ -566,6 +837,8 @@
    	</div> <!-- /portfolio-content --> 
 		
 	</section> <!-- /portfolio --> 
+
+	
 
 	
 	<!-- services Section
